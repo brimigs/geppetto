@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "core",
+#    "core/derive/*",
+    "core/attribute/*",
+    "core/parser",
+]
