@@ -2,6 +2,7 @@ bin/
 dist/
 .idea/
 target/
+**/target/
 *~
 *.swp
 *.swo

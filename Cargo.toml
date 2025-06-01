@@ -1,7 +1,10 @@
+cargo-features = ["edition2024"]
+resolver = "2"
 [workspace]
 members = [
     "core",
-#    "core/derive/*",
-    "core/attribute/*",
-    "core/parser",
+    "derive",
+    "attribute/*",
+    "parser",
+    "examples/hello-world",
 ]

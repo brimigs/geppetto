@@ -1,4 +1,8 @@
+cargo-features = ["edition2024"]
 [package]
 name = "geppetto-core"
 version = "0.1.0"
 edition = "2024"
+
+[dependencies]
+pinocchio = "0.8.4"
