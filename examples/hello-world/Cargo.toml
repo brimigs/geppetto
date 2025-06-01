@@ -1,0 +1,17 @@
+cargo-features = ["edition2024"]
+[package]
+name = "hello-world"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pinocchio = "0.8.4"
+geppetto-attribute-program = { path = "../../attribute/program" }
+geppetto-core = { path = "../../core" }
+
+[dev-dependencies]
+solana-sdk = "2.2.2"
+mollusk-svm = "0.1.5"
+
+[lib]
+crate-type = ["cdylib"]

@@ -1,9 +1,0 @@
-[package]
-name = "geppetto-parser"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-syn = { version = "2.0.101", features = ["full", "extra-traits", "parsing"] }
-proc-macro2 = "1.0.95"
-quote = "1"
