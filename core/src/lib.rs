@@ -1,5 +1,4 @@
-pub use pinocchio::{
-    entrypoint::{InstructionContext, MaybeAccount},
-    lazy_program_entrypoint,
-    log, no_allocator, nostd_panic_handler, ProgramResult,
-};
+#[cfg(feature = "idl-build")]
+pub fn generate_idl_stub() {
+    // …your IDL generation logic…
+}

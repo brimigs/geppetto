@@ -998,6 +998,7 @@ name = "geppetto-attribute-program"
 version = "0.1.0"
 dependencies = [
  "geppetto-parser",
+ "pinocchio",
  "proc-macro2",
  "quote",
  "syn 2.0.101",
@@ -1015,6 +1016,7 @@ name = "geppetto-derive"
 version = "0.1.0"
 dependencies = [
  "geppetto-parser",
+ "pinocchio",
  "proc-macro2",
  "quote",
  "syn 2.0.101",
@@ -1024,6 +1026,7 @@ dependencies = [
 name = "geppetto-parser"
 version = "0.1.0"
 dependencies = [
+ "pinocchio",
  "proc-macro2",
  "quote",
  "syn 2.0.101",
@@ -1131,7 +1134,6 @@ name = "hello-world"
 version = "0.1.0"
 dependencies = [
  "geppetto-attribute-program",
- "geppetto-core",
  "mollusk-svm",
  "pinocchio",
  "solana-sdk",

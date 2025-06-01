@@ -28,8 +28,7 @@ pub fn program(_args: TokenStream, input: TokenStream) -> TokenStream {
             // Exactly one handler, so forward all calls to module::that_fn(ctx)
             let handler_fn = handler_idents[0];
             quote! {
-                // This macro comes from geppetto-core re‐exporting pinocchio::lazy_program_entrypoint
-                geppetto_core::lazy_program_entrypoint!(process_instruction);
+                pinocchio::lazy_program_entrypoint!(process_instruction);
 
                 // In single‐handler mode, `lazy_program_entrypoint!` will expand roughly to:
                 //
